@@ -1,0 +1,9 @@
+let listMap = new Map();
+listMap.set('list', 'map');
+listMap.set('list1', 'map1');
+listMap.set('list2', 'map2');
+
+for (let [key, value] of listMap){
+  console.log('Ключ - ', key, 'Значение - ', value);
+}
+

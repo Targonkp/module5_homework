@@ -1,0 +1,18 @@
+let abc = prompt('Введите число');
+let num = +abc;
+
+if (typeof(num) === 'number'){
+  if (num % 2 == 0){
+    console.log('четное')
+  }
+  else
+  {console.log('нечетное')};
+}
+else
+if (typeof(num) === 'NAN'){
+  console.log('NAN не является числом');
+}
+else
+  {
+    console.log('Упс, кажется, вы ошиблись');
+  }

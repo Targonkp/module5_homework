@@ -1,0 +1,15 @@
+let x = 123;
+
+switch(typeof(x)){
+  case 'number':
+    console.log('Это число');
+    break;
+  case 'boolean': 
+    console.log('Это логический тип данных');
+    break;
+  case 'string':
+     console.log('Это строка');
+    break;
+  default:
+    alert( "Нет таких значений" );
+}

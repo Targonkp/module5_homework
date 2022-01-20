@@ -1,0 +1,6 @@
+let abc = prompt('Введите строку');
+
+function reverseString() {
+  console.log(abc.split("").reverse().join(""));
+}
+reverseString();
